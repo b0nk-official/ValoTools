@@ -6,6 +6,9 @@ from time import sleep as wait
 from random import choice
 from text_ui import textUI
 
+# Variables
+ascentListAppended = False
+
 # Functions
 def selectUI():
     runCommand("title ValoTools - Selecting UI Type")
