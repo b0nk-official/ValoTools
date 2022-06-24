@@ -14,15 +14,15 @@ def selectUI():
     uiChoice = input()
 
     if uiChoice == "1":
-        print("Loading text-based ui...")
+        print("\nLoading text-based ui...")
         wait(1)
         textUI()
     elif uiChoice == "2":
-        print("Graphics-based ui is in progress, loading text-based ui...")
+        print("\nGraphics-based ui is in progress, loading text-based ui...")
         wait(1)
         textUI()
     else:
-        print("Not a valid option. Select 1 or 2.\n")
+        print("\nNot a valid option. Select 1 or 2.\n")
         selectUI()
 
 # Call Function

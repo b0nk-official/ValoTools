@@ -65,7 +65,7 @@ allMaps = [
 
 # Functions
 def selectFunc():
-    print("ValoTools\n---------------------------\nSelect what you want to use.\n1. Random Loadout\n2. Random Agent\n3. Random Map (Custom Game)\nx. Exit ValoTools")
+    print("ValoTools\n---------------------------\nSelect what you want to use.\n1. Random Loadout\n2. Random Agent\n3. Random Map (Custom Game)\nx. Exit ValoTools\n")
 
     selectedFunc = input()
     possibleChoices = ["1", "2", "3", "x"]
@@ -109,6 +109,3 @@ def textUI():
             getSelectedFunc()
     
     getSelectedFunc()
-
-print("This file is not meant to be opened. Try main.py!")
-input()
