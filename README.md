@@ -8,6 +8,10 @@ Join our valorant discord server I guess, https://discord.gg/NvdwSwfuAd
 Check releases for an executable file.
 If you are going to use the source code to run it, run main.py to start it. All other .py files are used for imports.
 
+Viruses might be detected, but only because it is a code file from a unrecognized source.
+If your antivirus deletes it, turn it off temporarily and then add an exclusion to the file when its downloaded.
+Don't trust me? Check the file on https://www.virustotal.com and see that most antiviruses mark the file as clean.
+
 ### TEXT UI IS WINDOWS ONLY
 If this is not ran on Windows, a lot of cosmetic features will be broken like the window title and keeping the text cleaned up.
 Graphical UI should work just fine, though.
