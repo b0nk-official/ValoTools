@@ -35,7 +35,6 @@ def selectFunc():
     print("ValoTools " + versionNum + "\n---------------------------\nSelect what you want to use.\n1. Random Loadout\n2. Random Agent\n3. Random Map (Custom Game)\n4. Random Strat\n5. Weapon Stats\n")
 
     selectedFunc = input()
-    possibleChoices = ["1", "2", "3", "x"]
 
     return selectedFunc
 
