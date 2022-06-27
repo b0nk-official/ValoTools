@@ -1,7 +1,6 @@
 # Text UI portion of ValoTools
 
 # Imports
-from asyncio.format_helpers import _format_callback_source
 import random
 from os import system as runCmd
 from time import sleep as wait
