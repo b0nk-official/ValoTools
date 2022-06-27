@@ -1,7 +1,7 @@
 # Tables file for ValoTools
 
 # Variables
-versionNum = "1.2.1" # Master version number, changes values across every file
+versionNum = "1.2.2" # Master version number, changes values across every file
 
 # Tables
 weapons = [
