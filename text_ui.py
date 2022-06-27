@@ -52,6 +52,7 @@ def weaponStatsFunc(): # Get Weapon Stats
     if weaponStats.get(selectedWep):
         runCmd("cls && title ValoTools - Viewing " + selectedWep + " Stats")
         print("Weapon Name: " + selectedWep)
+        print("Damage: " + weaponStats[selectedWep]["damage"])
         print("Fire Mode: " + weaponStats[selectedWep]["fireMode"])
         print("Fire Rate: " + weaponStats[selectedWep]["fireRate"])
         print("Run Speed: " + weaponStats[selectedWep]["runSpeed"])

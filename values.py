@@ -117,13 +117,18 @@ basicStrats = [
     "COUNTER STRIKE: GLOBAL OFFENSIVE - Everybody is not allowed to use abilities this round.",
     "STEALTH MODE - Never stop crouching. Did you ever need to stand, anyway?",
     "FOLLOW THE LEADER - The top frag is the leader, and every player has to follow them in a line that follows their movements.",
-    "DIRECTIONAL CALLOUTS - The only callouts allowed are Forward, Back, Left, and Right."
+    "DIRECTIONAL CALLOUTS - The only callouts allowed are Forward, Back, Left, and Right.",
+    "PROFESSIONAL GAMEPLAY - Rotate your keyboard 90 degrees for the round. (Left of keyboard facing monitor)",
+    "THE DRUNKARD - The bottom frag must drink a whole entire beverage that they have in their room.",
+    "THE FIVE TRUE CHADS - Stinger heavy armor.",
+    "HEY GUYS QUANDALE DINGLE HERE - Scream AUUUGGGGHHHHH into your microphone if you get a kill or die.",
+    "CLUTCH OR KICK - Whoever is the last one alive in a round and dies after a failed clutch must leave the voice chat for the match."
 ]
 ascentStrats = [
     "FUCK THEM DOORS - On attackers, destroy all doors before you can plant. On defenders, destroy all doors before you can defuse."
 ]
 havenStrats = [
-    "AROUND THE WORLD 2 - You must set foot on every site before you can plant/defuse. If spike is transferred to another player, they must complete the challenge before planting."
+    
 ]
 splitStrats = [
     "BOOTS ON THE GROUND - Ziplines are not usable this round."
@@ -145,6 +150,7 @@ breezeStrats = [
 ]
 weaponStats = {
     "Classic": {
+        "damage": "0-30m: (Head 78/Body 26/Leg 22) 30-50m: (Head 66/Body 22/Leg 18)",
         "fireMode": "Semi-Auto",
         "fireRate": "6.75 rounds per second",
         "runSpeed": "5.73 meters per second",
@@ -154,6 +160,7 @@ weaponStats = {
         "magSize": "12 rounds per mag, 3 mags in reserve"
     },
     "GoldenGun": {
+        "damage": "Instakill",
         "fireMode": "Semi-Auto",
         "fireRate": "3 rounds per second",
         "runSpeed": "7.4 meters per second",
@@ -163,6 +170,7 @@ weaponStats = {
         "magSize": "2 rounds per mag, 1 mag"
     },
     "OverdriveBeam": {
+        "damage": "0-15m: (Head ?/Body 22/Leg ?) Falls off to 10 after that over 30 meters",
         "fireMode": "Full-Auto",
         "fireRate": "20 rounds per second",
         "runSpeed": "Linked to relative ultimate",
@@ -172,6 +180,7 @@ weaponStats = {
         "magSize": "Linked to relative ultimate"
     },
     "TourDeForce": {
+        "damage": "Instakill",
         "fireMode": "Semi-Auto",
         "fireRate": "1.2 rounds per second",
         "runSpeed": "5.13/5.4 meters per second",
@@ -181,6 +190,7 @@ weaponStats = {
         "magSize": "5 rounds per mag, 1 mag"
     },
     "Headhunter": {
+        "damage": "Head 159/Body 55/Legs 46",
         "fireMode": "Semi-Auto",
         "fireRate": "6.75 rounds per second",
         "runSpeed": "5.73 meters per second",
@@ -190,6 +200,7 @@ weaponStats = {
         "magSize": "0-8 rounds per mag, 1 mag"
     },
     "Sheriff": {
+        "damage": "0-30m: (Head 159/Body 55/Leg 46) 30-50m: (Head 145/Body 50/Leg 42)",
         "fireMode": "Semi-Auto",
         "fireRate": "4 rounds per second",
         "runSpeed": "5.4 meters per second",
@@ -199,6 +210,7 @@ weaponStats = {
         "magSize": "6 rounds per mag, 3 mags in reserve"
     },
     "Ghost": {
+        "damage": "0-30m: (Head 105/Body 30/Leg 25) 30-50m: (Head 87/Body 25/Leg 21)",
         "fireMode": "Semi-Auto",
         "fireRate": "6.75 rounds per second",
         "runSpeed": "5.73 meters per second",
@@ -208,6 +220,7 @@ weaponStats = {
         "magSize": "15 rounds per mag, 3 mags in reserve"
     },
     "Shorty": {
+        "damage": "(15 pellets per shot) 0-15m: (Head 24/Body 12/Leg 10) 15-50m: (Head 6/Body 3/Leg 2)",
         "fireMode": "Semi-Auto",
         "fireRate": "3.33 rounds per second",
         "runSpeed": "5.4 meters per second",
@@ -217,6 +230,7 @@ weaponStats = {
         "magSize": "2 rounds per mag, 5 mags in reserve"
     },
     "Frenzy": {
+        "damage": "0-20m: (Head 78/Body 26/Leg 22) 30-50m: (Head 63/Body 21/Leg 17)",
         "fireMode": "Full-Auto",
         "fireRate": "10 rounds per second",
         "runSpeed": "5.73 meters per second",
@@ -226,6 +240,7 @@ weaponStats = {
         "magSize": "13 rounds per mag, 3 mags in reserve"
     },
     "Stinger": {
+        "damage": "0-20m: (Head 67/Body 27/Leg 22) 20-50m: (Head 62/Body 25/Leg 21)",
         "fireMode": "Full-Auto",
         "fireRate": "16 rounds per second",
         "runSpeed": "5.73 meters per second",
@@ -235,6 +250,7 @@ weaponStats = {
         "magSize": "20 rounds per mag, 3 mags in reserve"
     },
     "Spectre": {
+        "damage": "0-20m: (Head 78/Body 26/Leg 22) 20-50m: (Head 66/Body 22/Leg 18)",
         "fireMode": "Full-Auto",
         "fireRate": "13.33 rounds per second",
         "runSpeed": "5.73 meters per second",
@@ -244,6 +260,7 @@ weaponStats = {
         "magSize": "30 rounds per mag, 3 mags in reserve"
     },
     "Bucky": {
+        "damage": "(15 pellets per shot) 0-8m: (Head 40/Body 20/Leg 17) 8-12m: (Head 26/Body 13/Leg 11) 12-50m: (Head 18/Body 9/Leg 7)",
         "fireMode": "Semi-Auto",
         "fireRate": "1.1 rounds per second",
         "runSpeed": "5.06 meters per second",
@@ -253,6 +270,7 @@ weaponStats = {
         "magSize": "5 rounds per mag, 2 mags in reserve"
     },
     "Judge": {
+        "damage": "(12 pellets per shot) 0-10m: (Head 34/Body 17/Leg 14) 10-15m: (Head 20/Body 10/Leg 8) 15-50m: (Head 14/Body 7/Leg 5)",
         "fireMode": "Full-Auto",
         "fireRate": "3.5 rounds per second",
         "runSpeed": "5.06 meters per second",
@@ -262,6 +280,7 @@ weaponStats = {
         "magSize": "7 rounds per mag, 3 mags in reserve"
     },
     "Bulldog": {
+        "damage": "Head 115/Body 35/Leg 29",
         "fireMode": "Full-Auto",
         "fireRate": "5.4 rounds per second",
         "runSpeed": "5.4 meters per second",
@@ -271,6 +290,7 @@ weaponStats = {
         "magSize": "24 rounds per mag, 3 mags in reserve"
     },
     "Guardian": {
+        "damage": "Head 195/Body 65/Leg 49",
         "fireMode": "Semi-Auto",
         "fireRate": "5.25 rounds per second",
         "runSpeed": "5.4 meters per second",
@@ -280,6 +300,7 @@ weaponStats = {
         "magSize": "12 rounds per mag, 3 mags in reserve"
     },
     "Phantom": {
+        "damage": "0-15m: (Head 156/Body 39/Leg 33) 15-30m: (Head 140/Body 35/Leg 29) 30-50m: (Head 124/Body 31/Leg 26)",
         "fireMode": "Full-Auto",
         "fireRate": "11 rounds per second",
         "runSpeed": "5.4 meters per second",
@@ -289,6 +310,7 @@ weaponStats = {
         "magSize": "30 rounds per mag, 3 mags in reserve"
     },
     "Vandal": {
+        "damage": "Head 160/Body 40/Leg 34",
         "fireMode": "Full-Auto",
         "fireRate": "9.75 rounds per second",
         "runSpeed": "5.4 meters per second",
@@ -298,6 +320,7 @@ weaponStats = {
         "magSize": "25 rounds per mag, 3 mags in reserve"
     },
     "Marshal": {
+        "damage": "Head 202/Body 101/Leg 85",
         "fireMode": "Semi-Auto",
         "fireRate": "1.5 rounds per second",
         "runSpeed": "5.4 meters per second",
@@ -307,6 +330,7 @@ weaponStats = {
         "magSize": "5 rounds per mag, 3 mags in reserve"
     },
     "Operator": {
+        "damage": "Head 255/Body 150/Leg 120",
         "fireMode": "Semi-Auto",
         "fireRate": "0.6 rounds per second",
         "runSpeed": "5.13 meters per second",
@@ -316,6 +340,7 @@ weaponStats = {
         "magSize": "5 rounds per mag, 2 mags in reserve"
     },
     "Ares": {
+        "damage": "0-30m: (Head 72/Body 30/Leg 25) 30-50m: (Head 67/Body 28/Leg 23)",
         "fireMode": "Full-Auto",
         "fireRate": "13 rounds per second",
         "runSpeed": "5.13 meters per second",
@@ -325,6 +350,7 @@ weaponStats = {
         "magSize": "50 rounds per mag, 2 mags in reserve"
     },
     "Odin": {
+        "damage": "0-30m: (Head 95/Body 38/Leg 32) 30-50m: (Head 77/Body 31/Leg 26)",
         "fireMode": "Full-Auto",
         "fireRate": "12-15.6 rounds per second",
         "runSpeed": "5.13 meters per second",
@@ -334,7 +360,7 @@ weaponStats = {
         "magSize": "100 rounds per mag, 2 mags in reserve"
     },
     "Knife": {
-        "fireMode": "Semi-Auto",
+        "fireMode": "Primary fire 50/Alt fire 75 (Backstab adds a x2)",
         "fireRate": "No information found",
         "runSpeed": "No information found",
         "equipSpeed": "No information found",
