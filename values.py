@@ -360,7 +360,8 @@ weaponStats = {
         "magSize": "100 rounds per mag, 2 mags in reserve"
     },
     "Knife": {
-        "fireMode": "Primary fire 50/Alt fire 75 (Backstab adds a x2)",
+        "damage": "Primary fire 50/Alt fire 75 (Backstab adds a x2)",
+        "fireMode": "Semi-Auto",
         "fireRate": "No information found",
         "runSpeed": "No information found",
         "equipSpeed": "No information found",
