@@ -18,6 +18,6 @@ If this is not ran on Windows, a lot of cosmetic features will be broken like th
 Graphical UI should work just fine, though.
 
 ### VERSION NUMBERS ACCORDING TO ME
-Versions will go like this! The first number changes after a huge update or feature is added.
+Versions will go like this! The first number changes after a huge update or big feature is added.
 The second number changes after a feature addition.
 The third number changes after an addition to an already existing feature or a bug fix.
