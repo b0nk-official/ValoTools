@@ -1,7 +1,7 @@
 # Tables file for ValoTools
 
 # Variables
-versionNum = "1.2.2" # Master version number, changes values across every file
+versionNum = "v2.0.0-alpha" # Master version number
 
 # Tables
 weapons = [
@@ -122,7 +122,8 @@ basicStrats = [
     "THE DRUNKARD - The bottom frag must drink a whole entire beverage that they have in their room.",
     "THE FIVE TRUE CHADS - Stinger heavy armor.",
     "HEY GUYS QUANDALE DINGLE HERE - Scream AUUUGGGGHHHHH into your microphone if you get a kill or die.",
-    "CLUTCH OR KICK - Whoever is the last one alive in a round and dies after a failed clutch must leave the voice chat for the match."
+    "CLUTCH OR KICK - Whoever is the last one alive in a round and dies after a failed clutch must leave the voice chat for the match.",
+    "TURBULENT - Blow into your microphone. That is it."
 ]
 ascentStrats = [
     "FUCK THEM DOORS - On attackers, destroy all doors before you can plant. On defenders, destroy all doors before you can defuse."

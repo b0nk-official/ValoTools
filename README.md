@@ -7,7 +7,7 @@ Functionality will be added every once in a while if I do keep up with it.
 Join our valorant discord server I guess, https://discord.gg/NvdwSwfuAd
 
 Check releases for an executable file.
-If you are going to use the source code to run it, run main.py to start it. All other .py files are used for imports.
+If you are going to use the source code to run it, use text_ui or graphic_ui. (you can probably assume which is which)
 
 Viruses might be detected, but only because it is a code file from a unrecognized source.
 If your antivirus deletes it, turn it off temporarily and then add an exclusion to the file when its downloaded.
