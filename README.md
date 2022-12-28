@@ -2,10 +2,6 @@
 ## DISCONTINUED
 A multi-purpose tool for Valorant.
 
-Functionality will be added every once in a while if I do keep up with it.
-
-Join our valorant discord server I guess, https://discord.gg/NvdwSwfuAd
-
 Check releases for an executable file.
 If you are going to use the source code to run it, use text_ui or graphic_ui. (you can probably assume which is which)
 
